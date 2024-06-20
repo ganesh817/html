@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        
+        <form  align="center">
+          FirstName  <input type="text" size="5" required><br><br>
+          LastName <input type="text" required><br><br>
+          <p>choose your Gender</p>
+          <input type="radio" name="gender" required>Male<br>
+          <input type="radio" name="gender" required>Female<br>
+          <input type="radio" name="gender" required>Others<br><br>
+          Email  <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+          Password <input type="password"   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
+          Confirm Password<input type="password"   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
+          Mobile number
+          <select>
+            <option value="">+91</option>
+            <option value="">+92</option>
+            <option value="">+93</option>
+            <option value="">+94</option>
+            <option value="">00</option>
+          </select><input type="tel" pattern="[0-9]{10}"><br><br>
+          <p>Languages known</p>
+          <input type="checkbox" name="lang">English<br>
+          <input type="checkbox" name="lang">Telugu<br>
+          <input type="checkbox" name="lang">Kannada<br>
+          <input type="checkbox" name="lang">Tamil<br>
+          <input type="checkbox" name="lang">Hindi<br>
+          <p> Year of passing</p>
+          <select>
+            <option value="">2021</option>
+            <option value="">2022</option>
+            <option value="">2023</option>
+            <option value="">2024</option>
+            <option value="">2025</option>
+          </select><br>
+          Choose your DOB<input type="date" ><br><br>
+          Work Experience<input type="number" min="1" max="5"><br><br>
+
+          Upload your CV<input type="file"><br><br>
+          Enter yur current address
+          <textarea place holder="enter here....."></textarea><br><br>
+          <input type="color">
+          <input type="checkbox" required>Accepting all the <a href=#> terms and conditions</a><br><br>
+           <input type="submit" value="Submit">
+          
+        </form>
+        
+    </body>
+</html>
